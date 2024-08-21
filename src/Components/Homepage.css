@@ -1,0 +1,29 @@
+/* src/Components/Homepage.css */
+.home-container {
+    background-image: url('../Assert/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .overlay p {
+    font-size: 1.5rem;
+  }
+  

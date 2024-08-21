@@ -1,0 +1,16 @@
+/* src/components/Product.css */
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+  }
+  .card-custom {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  
+  .card-custom img {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  
