@@ -3,9 +3,9 @@ import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 import { CartContext } from '../context/CartContext';
 import img1 from '../Assert/img1.jpeg';
 import img2 from '../Assert/img2.jpeg';
-import img3 from '../Assert/img3.jpg';
-import img4 from '../Assert/img4.jpg';
-import img5 from '../Assert/img5.jpg';
+import img3 from '../Assert/img3.jpeg';
+import img4 from '../Assert/img4.jpeg';
+import img5 from '../Assert/img5.jpeg';
 import img6 from '../Assert/img6.jpeg';
 import './Product.css';  // Import custom CSS
 
@@ -15,7 +15,7 @@ const products = [
   { id: 3, name: 'Cheese Burger', price: 90, imageUrl: img3 },
   { id: 4, name: 'Cinnamon Bun', price: 30, imageUrl: img4 },
   { id: 5, name: 'Donut', price: 89, imageUrl: img5 },
-  { id: 6, name: 'Chicken Nugget', price: 450000, imageUrl: img6 }
+  { id: 6, name: 'Chicken Nugget', price: 45, imageUrl: img6 }
 ];
 
 const Products = () => {
